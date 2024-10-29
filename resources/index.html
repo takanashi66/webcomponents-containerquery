@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>NEWS</title>
+    <script src="./components/news-item/news-item.js" type="module" defer></script>
+</head>
+<body>
+    <div class="wrap">
+        
+        <aside class="sidebar">
+            <div class="news">
+                <h2>NEWS</h2>
+                
+                <news-item link="https://codecodeweb.com" img="./img/news/img01.webp">
+                    <span slot="title">タイトル1</span>
+                    <span slot="excerpt">テキストテキストテキストテキストテキストテキスト</span>
+                </news-item>
+                
+                <news-item link="https://hirofuro.org" img="./img/news/img02.webp">
+                    <span slot="title">タイトル2</span>
+                    <span slot="excerpt">長いテキスト長いテキスト長いテキスト長いテキスト長いテキスト長いテキスト長いテキスト長いテキスト長いテキスト長いテキスト長いテキスト長いテキスト長いテキスト長いテキスト長いテキスト</span>
+                </news-item>
+                
+                <news-item>
+                    <span slot="title">タイトル3</span>
+                    <span slot="excerpt">テキストテキストテキストテキストテキストテキスト</span>
+                </news-item>
+                
+            </div>
+        </aside>
+        
+        <main class="main">
+            <div class="news">
+                <h2>NEWS</h2>
+                
+                
+                <news-item link="https://codecodeweb.com" img="./img/news/img01.webp">
+                    <span slot="title">タイトル1</span>
+                    <span slot="excerpt">テキストテキストテキストテキストテキストテキスト</span>
+                </news-item>
+                
+                <news-item link="https://hirofuro.org" img="./img/news/img02.webp">
+                    <span slot="title">タイトル2</span>
+                    <span slot="excerpt">長いテキスト長いテキスト長いテキスト長いテキスト長いテキスト長いテキスト長いテキスト長いテキスト長いテキスト長いテキスト長いテキスト長いテキスト長いテキスト長いテキスト長いテキスト</span>
+                </news-item>
+                
+                <news-item>
+                </news-item>
+                
+                
+            </div>
+        </main>
+        
+    </div>
+</body>
+</html>
+
+<template>
+    <p>再利用される要素</p>
+</template>
+
+<news-item></news-item>

@@ -1,0 +1,27 @@
+.wrap{
+    max-width: 980px;
+    margin-inline: auto;
+    display: grid;
+    grid-template-columns: 200px 1fr;
+    gap: 5%;
+    padding: 60px 0;
+    
+    .sidebar{
+        h2{
+            font-size: 1.6rem;
+            font-weight: bold;
+        }
+    }
+    
+    .main{
+        h2{
+            font-size: 3rem;
+            font-weight: bold;
+        }
+    }
+    
+    .news{
+        container-type: inline-size;
+    }
+}
+
